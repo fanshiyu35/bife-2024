@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Large Language Models for Earnings-Call Sentiment Extraction | BIFE 2024</title>
+<meta name="description" content="We benchmark four Chinese-capable language models — ChatGLM-3, Qwen-2, BERT-wwm-Chinese, and FinBERT-CN — for sentence-level sentiment extraction on a">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<div class="ieee-topbar">
+  <div class="ieee-topbar-inner">
+    <span class="ieee-brand-mark">IEEE COMPUTER SOCIETY · TECHNICALLY CO-SPONSORED</span>
+    <div>
+      <a href="https://www.ieee.org" target="_blank">IEEE.org</a>
+      <a href="https://www.computer.org" target="_blank">IEEE CS</a>
+      <a href="https://ieeexplore.ieee.org" target="_blank">IEEE Xplore</a>
+    </div>
+  </div>
+</div>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../index.html" class="logo-block" style="text-decoration:none">
+      <div class="logo-mark">BIFE</div>
+      <div class="logo-text">
+        <div class="conf-name">BIFE 2024</div>
+        <div class="conf-sub">17th Int'l Conference · Hangzhou · Nov 14-16</div>
+      </div>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../committee.html">Committee</a></li>
+        <li><a href="../cfp.html">Call for Papers</a></li>
+        <li><a href="../program.html">Program</a></li>
+        <li><a href="../papers.html" class="active">Papers</a></li>
+        <li><a href="../keynotes.html">Keynotes</a></li>
+        <li><a href="../venue.html">Venue</a></li>
+        <li><a href="../registration.html">Register</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="../index.html">Home</a><span class="sep">›</span><a href="../papers.html">Papers</a><span class="sep">›</span><span class="current">P005</span>
+  </div>
+</div>
+<section class="page-header">
+  <div class="section-inner">
+    <div style="font-family:'Courier New',monospace; color:var(--ieee-red-light); font-size:13px; letter-spacing:2px; margin-bottom:8px">PAPER 05 · 10.1109/BIFE.2024.005</div>
+    <h1 style="font-size:30px; max-width:1000px">Large Language Models for Earnings-Call Sentiment Extraction: Comparing ChatGLM, Qwen and BERT on Chinese Listed Firms</h1>
+    <p class="sub" style="font-style:italic; margin-top:18px">Yuxin Li, Cheng Ma, Tao Zhang</p>
+    <p class="sub" style="font-size:13px">Tsinghua University · School of Economics &amp; Management; Renmin University of China</p>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner" style="max-width:900px">
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:30px; padding:20px; background:var(--ieee-bg); border-left:4px solid var(--ieee-red)">
+      <div>
+        <div style="font-size:11px; color:var(--ieee-red); font-weight:700; text-transform:uppercase; letter-spacing:1.5px">Track</div>
+        <div style="font-weight:600">Track 03 — NLP for Finance</div>
+      </div>
+      <div>
+        <div style="font-size:11px; color:var(--ieee-red); font-weight:700; text-transform:uppercase; letter-spacing:1.5px">Session</div>
+        <div style="font-weight:600">Session 2B · Friday 14 November · 14:00–15:30</div>
+      </div>
+      <div>
+        <div style="font-size:11px; color:var(--ieee-red); font-weight:700; text-transform:uppercase; letter-spacing:1.5px">DOI</div>
+        <div style="font-family:'Courier New',monospace; font-size:13px">10.1109/BIFE.2024.005</div>
+      </div>
+      <div>
+        <div style="font-size:11px; color:var(--ieee-red); font-weight:700; text-transform:uppercase; letter-spacing:1.5px">Status</div>
+        <div style="font-weight:600; color:var(--ieee-red)">Accepted · IEEE Xplore Pending</div>
+      </div>
+    </div>
+
+    <div class="section-header">
+      <span class="section-tag">Abstract</span>
+      <h2 class="section-title" style="font-size:22px">Abstract</h2>
+    </div>
+    <p style="font-size:15px; line-height:1.8; text-align:justify; margin-bottom:24px">We benchmark four Chinese-capable language models — ChatGLM-3, Qwen-2, BERT-wwm-Chinese, and FinBERT-CN — for sentence-level sentiment extraction on a hand-labelled corpus of 14,000 earnings-call transcripts from Shanghai and Shenzhen-listed firms (2018-2024). Qwen-2 with chain-of-thought prompting achieves the highest F1 (0.847) on a five-class sentiment task. Downstream, sentiment-weighted portfolios constructed from Qwen-extracted signals earn a CAPM-adjusted alpha of 6.3% annualised over 2022-2023.</p>
+
+    <div class="section-header">
+      <span class="section-tag">Keywords</span>
+      <h2 class="section-title" style="font-size:22px">Index Terms</h2>
+    </div>
+    <div style="margin-bottom:30px"><span style="display:inline-block; padding:4px 12px; background:var(--ieee-bg); border:1px solid var(--ieee-border); margin-right:6px; margin-bottom:6px; font-size:12px; color:var(--ieee-gray-dark)">Large Language Models</span><span style="display:inline-block; padding:4px 12px; background:var(--ieee-bg); border:1px solid var(--ieee-border); margin-right:6px; margin-bottom:6px; font-size:12px; color:var(--ieee-gray-dark)">Sentiment Analysis</span><span style="display:inline-block; padding:4px 12px; background:var(--ieee-bg); border:1px solid var(--ieee-border); margin-right:6px; margin-bottom:6px; font-size:12px; color:var(--ieee-gray-dark)">Earnings Call</span><span style="display:inline-block; padding:4px 12px; background:var(--ieee-bg); border:1px solid var(--ieee-border); margin-right:6px; margin-bottom:6px; font-size:12px; color:var(--ieee-gray-dark)">ChatGLM</span><span style="display:inline-block; padding:4px 12px; background:var(--ieee-bg); border:1px solid var(--ieee-border); margin-right:6px; margin-bottom:6px; font-size:12px; color:var(--ieee-gray-dark)">Qwen</span></div>
+
+    <div class="section-header">
+      <span class="section-tag">Citation</span>
+      <h2 class="section-title" style="font-size:22px">How to Cite</h2>
+    </div>
+    <div style="background:var(--ieee-black); color:#cccccc; padding:20px; font-family:'Courier New',monospace; font-size:13px; line-height:1.7; margin-bottom:30px">
+      Yuxin Li, Cheng Ma, Tao Zhang, "Large Language Models for Earnings-Call Sentiment Extraction: Comparing ChatGLM, Qwen and BERT on Chinese Listed Firms," in <em style="color:var(--ieee-red-light)">Proc. 17th IEEE International Conference on Business Intelligence and Financial Engineering (BIFE 2024)</em>, Hangzhou, China, Nov. 14-16, 2024, pp. 33-40, doi: 10.1109/BIFE.2024.005.
+    </div>
+
+    <div style="display:flex; gap:12px; flex-wrap:wrap">
+      <a href="../papers.html" class="btn btn-dark">← All Papers</a>
+      <a href="#" class="btn btn-primary">Download PDF (Forthcoming)</a>
+      <a href="#" class="btn btn-outline" style="color:var(--ieee-black); border-color:var(--ieee-black)">BibTeX</a>
+    </div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h5>BIFE 2024</h5>
+      <p>The 17th International Conference on Business Intelligence and Financial Engineering — technically co-sponsored by the IEEE Computer Society. Hangzhou, China · November 14–16, 2024.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Conference</h5>
+      <a href="../about.html">About BIFE</a>
+      <a href="../committee.html">Committee</a>
+      <a href="../cfp.html">Call for Papers</a>
+      <a href="../program.html">Program</a>
+      <a href="../keynotes.html">Keynotes</a>
+    </div>
+    <div class="footer-col">
+      <h5>Attend</h5>
+      <a href="../registration.html">Registration</a>
+      <a href="../venue.html">Venue</a>
+      <a href="../venue.html#travel">Travel Info</a>
+      <a href="../papers.html">Accepted Papers</a>
+      <a href="../contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h5>Publication</h5>
+      <a href="#">IEEE Xplore</a>
+      <a href="#">EI Compendex</a>
+      <a href="#">Scopus Indexing</a>
+      <a href="#">DBLP</a>
+      <a href="#">DOI: 10.1109/BIFE.2024</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="ieee-line">IEEE COMPUTER SOCIETY · TECHNICALLY CO-SPONSORED</div>
+    © 2024 BIFE Steering Committee · IEEE Catalog Number CFP24BIF-USB · ISBN 979-8-3503-7421-9 · All rights reserved.
+  </div>
+</footer>
+</body>
+</html>

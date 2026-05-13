@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Stacking Ensemble for Anti-Money-Laundering Transaction Mo | BIFE 2024</title>
+<meta name="description" content="Mobile-payment ecosystems generate billions of micro-transactions with extreme class imbalance (suspicious-to-normal ratio ~1:100,000). We propose a t">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<div class="ieee-topbar">
+  <div class="ieee-topbar-inner">
+    <span class="ieee-brand-mark">IEEE COMPUTER SOCIETY · TECHNICALLY CO-SPONSORED</span>
+    <div>
+      <a href="https://www.ieee.org" target="_blank">IEEE.org</a>
+      <a href="https://www.computer.org" target="_blank">IEEE CS</a>
+      <a href="https://ieeexplore.ieee.org" target="_blank">IEEE Xplore</a>
+    </div>
+  </div>
+</div>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../index.html" class="logo-block" style="text-decoration:none">
+      <div class="logo-mark">BIFE</div>
+      <div class="logo-text">
+        <div class="conf-name">BIFE 2024</div>
+        <div class="conf-sub">17th Int'l Conference · Hangzhou · Nov 14-16</div>
+      </div>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../committee.html">Committee</a></li>
+        <li><a href="../cfp.html">Call for Papers</a></li>
+        <li><a href="../program.html">Program</a></li>
+        <li><a href="../papers.html" class="active">Papers</a></li>
+        <li><a href="../keynotes.html">Keynotes</a></li>
+        <li><a href="../venue.html">Venue</a></li>
+        <li><a href="../registration.html">Register</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="../index.html">Home</a><span class="sep">›</span><a href="../papers.html">Papers</a><span class="sep">›</span><span class="current">P006</span>
+  </div>
+</div>
+<section class="page-header">
+  <div class="section-inner">
+    <div style="font-family:'Courier New',monospace; color:var(--ieee-red-light); font-size:13px; letter-spacing:2px; margin-bottom:8px">PAPER 06 · 10.1109/BIFE.2024.006</div>
+    <h1 style="font-size:30px; max-width:1000px">A Stacking Ensemble for Anti-Money-Laundering Transaction Monitoring in Mobile Payment Networks</h1>
+    <p class="sub" style="font-style:italic; margin-top:18px">Yuki Tanaka, Hiroshi Sato, Akira Yamamoto</p>
+    <p class="sub" style="font-size:13px">University of Tokyo · Graduate School of Information Science; Mitsubishi UFJ Trust Investment Technology Institute</p>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner" style="max-width:900px">
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:30px; padding:20px; background:var(--ieee-bg); border-left:4px solid var(--ieee-red)">
+      <div>
+        <div style="font-size:11px; color:var(--ieee-red); font-weight:700; text-transform:uppercase; letter-spacing:1.5px">Track</div>
+        <div style="font-weight:600">Track 05 — RegTech &amp; AML</div>
+      </div>
+      <div>
+        <div style="font-size:11px; color:var(--ieee-red); font-weight:700; text-transform:uppercase; letter-spacing:1.5px">Session</div>
+        <div style="font-weight:600">Session 5 · Saturday 16 November · 11:00–12:30</div>
+      </div>
+      <div>
+        <div style="font-size:11px; color:var(--ieee-red); font-weight:700; text-transform:uppercase; letter-spacing:1.5px">DOI</div>
+        <div style="font-family:'Courier New',monospace; font-size:13px">10.1109/BIFE.2024.006</div>
+      </div>
+      <div>
+        <div style="font-size:11px; color:var(--ieee-red); font-weight:700; text-transform:uppercase; letter-spacing:1.5px">Status</div>
+        <div style="font-weight:600; color:var(--ieee-red)">Accepted · IEEE Xplore Pending</div>
+      </div>
+    </div>
+
+    <div class="section-header">
+      <span class="section-tag">Abstract</span>
+      <h2 class="section-title" style="font-size:22px">Abstract</h2>
+    </div>
+    <p style="font-size:15px; line-height:1.8; text-align:justify; margin-bottom:24px">Mobile-payment ecosystems generate billions of micro-transactions with extreme class imbalance (suspicious-to-normal ratio ~1:100,000). We propose a two-tier stacking ensemble combining gradient-boosted trees, an autoencoder reconstruction-error detector, and a graph-based community-isolation score. On a 90-day Japanese mobile-wallet dataset (~430 million transactions), the ensemble reduces false-positive volume by 41% while maintaining recall above 95% on regulator-confirmed AML cases. We discuss operational lessons including reviewer-in-the-loop feedback and concept-drift handling.</p>
+
+    <div class="section-header">
+      <span class="section-tag">Keywords</span>
+      <h2 class="section-title" style="font-size:22px">Index Terms</h2>
+    </div>
+    <div style="margin-bottom:30px"><span style="display:inline-block; padding:4px 12px; background:var(--ieee-bg); border:1px solid var(--ieee-border); margin-right:6px; margin-bottom:6px; font-size:12px; color:var(--ieee-gray-dark)">AML</span><span style="display:inline-block; padding:4px 12px; background:var(--ieee-bg); border:1px solid var(--ieee-border); margin-right:6px; margin-bottom:6px; font-size:12px; color:var(--ieee-gray-dark)">RegTech</span><span style="display:inline-block; padding:4px 12px; background:var(--ieee-bg); border:1px solid var(--ieee-border); margin-right:6px; margin-bottom:6px; font-size:12px; color:var(--ieee-gray-dark)">Mobile Payments</span><span style="display:inline-block; padding:4px 12px; background:var(--ieee-bg); border:1px solid var(--ieee-border); margin-right:6px; margin-bottom:6px; font-size:12px; color:var(--ieee-gray-dark)">Stacking</span><span style="display:inline-block; padding:4px 12px; background:var(--ieee-bg); border:1px solid var(--ieee-border); margin-right:6px; margin-bottom:6px; font-size:12px; color:var(--ieee-gray-dark)">Anomaly Detection</span></div>
+
+    <div class="section-header">
+      <span class="section-tag">Citation</span>
+      <h2 class="section-title" style="font-size:22px">How to Cite</h2>
+    </div>
+    <div style="background:var(--ieee-black); color:#cccccc; padding:20px; font-family:'Courier New',monospace; font-size:13px; line-height:1.7; margin-bottom:30px">
+      Yuki Tanaka, Hiroshi Sato, Akira Yamamoto, "A Stacking Ensemble for Anti-Money-Laundering Transaction Monitoring in Mobile Payment Networks," in <em style="color:var(--ieee-red-light)">Proc. 17th IEEE International Conference on Business Intelligence and Financial Engineering (BIFE 2024)</em>, Hangzhou, China, Nov. 14-16, 2024, pp. 41-48, doi: 10.1109/BIFE.2024.006.
+    </div>
+
+    <div style="display:flex; gap:12px; flex-wrap:wrap">
+      <a href="../papers.html" class="btn btn-dark">← All Papers</a>
+      <a href="#" class="btn btn-primary">Download PDF (Forthcoming)</a>
+      <a href="#" class="btn btn-outline" style="color:var(--ieee-black); border-color:var(--ieee-black)">BibTeX</a>
+    </div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h5>BIFE 2024</h5>
+      <p>The 17th International Conference on Business Intelligence and Financial Engineering — technically co-sponsored by the IEEE Computer Society. Hangzhou, China · November 14–16, 2024.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Conference</h5>
+      <a href="../about.html">About BIFE</a>
+      <a href="../committee.html">Committee</a>
+      <a href="../cfp.html">Call for Papers</a>
+      <a href="../program.html">Program</a>
+      <a href="../keynotes.html">Keynotes</a>
+    </div>
+    <div class="footer-col">
+      <h5>Attend</h5>
+      <a href="../registration.html">Registration</a>
+      <a href="../venue.html">Venue</a>
+      <a href="../venue.html#travel">Travel Info</a>
+      <a href="../papers.html">Accepted Papers</a>
+      <a href="../contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h5>Publication</h5>
+      <a href="#">IEEE Xplore</a>
+      <a href="#">EI Compendex</a>
+      <a href="#">Scopus Indexing</a>
+      <a href="#">DBLP</a>
+      <a href="#">DOI: 10.1109/BIFE.2024</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="ieee-line">IEEE COMPUTER SOCIETY · TECHNICALLY CO-SPONSORED</div>
+    © 2024 BIFE Steering Committee · IEEE Catalog Number CFP24BIF-USB · ISBN 979-8-3503-7421-9 · All rights reserved.
+  </div>
+</footer>
+</body>
+</html>
